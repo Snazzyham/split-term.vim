@@ -38,7 +38,7 @@ buffer experience.
 Install this plugin using your favorite plugin manager, or manually by
 extracting the files in your `~/.vim` or `~/.config/nvim` directory.
 
-    Plug 'mklabs/split-term.vim'
+    Plugin 'Snazzyham/split-term.vim'
 
 ## Commands
 
