@@ -13,17 +13,17 @@ fun! s:defineMaps()
   " Allow hitting <Esc> to switch to normal mode
   tnoremap <buffer> <Esc> <C-\><C-n>
 
-  " Alt+[hjkl] to navigate through windows in insert mode
-  tnoremap <buffer> <A-h> <C-\><C-n><C-w>h
-  tnoremap <buffer> <A-j> <C-\><C-n><C-w>j
-  tnoremap <buffer> <A-k> <C-\><C-n><C-w>k
-  tnoremap <buffer> <A-l> <C-\><C-n><C-w>l
+  " Ctrl-hjkl to navigate through windows in insert mode
+  tnoremap <buffer> <C-h> <C-\><C-n><C-w>h
+  tnoremap <buffer> <C-j> <C-\><C-n><C-w>j
+  tnoremap <buffer> <C-k> <C-\><C-n><C-w>k
+  tnoremap <buffer> <C-l> <C-\><C-n><C-w>l
 
-  " Alt+[hjkl] to navigate through windows in normal mode
-  nnoremap <buffer> <A-h> <C-w>h
-  nnoremap <buffer> <A-j> <C-w>j
-  nnoremap <buffer> <A-k> <C-w>k
-  nnoremap <buffer> <A-l> <C-w>l
+  " Ctrl-hjkl to navigate through windows in normal mode
+  nnoremap <buffer> <C-h> <C-w>h
+  nnoremap <buffer> <C-j> <C-w>j
+  nnoremap <buffer> <C-k> <C-w>k
+  nnoremap <buffer> <C-l> <C-w>l
 
   " Ctrl+Arrows to navigate through windows in insert mode
   tnoremap <buffer> <C-Left>  <C-\><C-n><C-w>h

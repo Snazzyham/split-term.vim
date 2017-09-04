@@ -88,11 +88,13 @@ The plugin remaps specifically a few keys for a better terminal buffer experienc
 behaviour can be disabled using `g:disable_key_mappings`.
 
 - `<Esc>` - Switch to normal mode (instead of `<C-\><C-n>`)
-- Bind Alt+hjkl, Ctrl+arrows to navigate through windows (eg. switching to buffer/windows left, right etc.)
-  - `Alt+h` - does a `<C-w>h`
-  - `Alt+j` - does a `<C-w>j`
-  - `Alt+k` - does a `<C-w>k`
-  - `Alt+l` - does a `<C-w>l`
+- Bind Ctrl+hjkl, Ctrl+arrows to navigate through windows (eg. switching to buffer/windows left, right etc.)
+
+Only works in normal mode, not insert mode
+  - `Ctrl+h` - does a `<C-w>h`
+  - `Ctrl+j` - does a `<C-w>j`
+  - `Ctrl+k` - does a `<C-w>k`
+  - `Ctrl+l` - does a `<C-w>l`
   - `Ctrl+Left` - does a `<C-w>h`
   - `Ctrl+Down` - does a `<C-w>j`
   - `Ctrl+Up` - does a `<C-w>k`
